@@ -10,7 +10,7 @@ namespace lab_6_mtzkit
             int n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(CNonRec(m, n));
             Console.WriteLine(CRec(m, n));
-            Console.ReadKey();
+            
         }
         static int Fact(int x)
         {
